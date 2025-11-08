@@ -1,2 +1,106 @@
 
 /* Your CSS Code here. */
+*{
+	font-family:arial,sans-serif;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	background:rgb(8,2,2);
+}
+header{
+	background-color:rgb(55,30,18);
+	text-align:center;
+	color:rgb(249,244,219);
+	padding:10px;
+	box-shadow:0px 5px 10px rgb(8,2,2);
+}
+h1{
+	background:rgb(49,29,17);
+}
+nav{
+	padding:25px 0;
+	text-align:center;
+}
+
+nav a {
+      color: rgb(243,230,190);
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 25px;
+      font-size: 16px;
+	
+    }
+nav a:hover{
+	 cursor:pointer;
+	 color: #ffcc00;
+	font-size:18px;
+ }
+
+.image-card{
+	text-align:center;
+	
+	
+	padding:20px;
+	
+}
+.image{
+	box-shadow:0 5px 10px wheat;
+	border-radius:15px;
+}
+ 
+
+summary p{
+	color: rgb(246,240,216);
+	text-align:center;
+	margin-left: auto;
+	margin-right:auto;
+	align-items:center;
+	width:700px;
+}
+
+section h2{
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+	color: rgb(246,240,216);
+
+}
+section h2:hover{
+	cursor:pointer;
+	 color: #ffcc00;
+}
+section ul{
+	text-align:center;
+	list-style-type:none;
+	color: rgb(246,240,216);
+}
+section blockquote{
+	color: rgb(246,240,216);
+	text-align:center;
+}
+section p{
+	color: rgb(246,240,216);
+	text-align:center;
+}
+aside{
+	color: rgb(246,240,216);
+	text-align:center;
+	padding:20px;
+}
+aside h2{
+	padding:15px;
+}
+aside p{
+	padding:5px;
+}
+footer{
+	color: rgb(246,240,216);
+	text-align:center;
+	background-color:rgb(55,30,18);
+	padding:20px;
+	font-weight:bolder;
+}
+footer strong{
+	background-color:rgb(55,30,18);
+	
+}
